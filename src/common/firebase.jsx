@@ -1,13 +1,14 @@
 import { initializeApp } from "firebase/app";
 import {GoogleAuthProvider, getAuth, signInWithPopup} from 'firebase/auth'
+import { FIREBASE_API_KEY, FIREBASE_AUTH_DOMAIN, FIREBASE_PROJECTID, FIREBASE_STORAGEBUCKET, FIREBASE_MESSAGINGSENDERID, FIREBASE_APPID } from "./constant"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAjDcn0fukG2GtEgRkOXLXO47LZCGZjcSM",
-  authDomain: "react-blogwebapp.firebaseapp.com",
-  projectId: "react-blogwebapp",
-  storageBucket: "react-blogwebapp.appspot.com",
-  messagingSenderId: "460084867602",
-  appId: "1:460084867602:web:c97c58d828630f72499ecb"
+  apiKey: FIREBASE_API_KEY,
+  authDomain: FIREBASE_AUTH_DOMAIN,
+  projectId: FIREBASE_PROJECTID,
+  storageBucket: FIREBASE_STORAGEBUCKET,
+  messagingSenderId: FIREBASE_MESSAGINGSENDERID,
+  appId: FIREBASE_APPID
 };
 
 
